@@ -1,0 +1,26 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid darkgreen;
+}
+
+@media (max-width: 700px) {
+    #canvas {
+        width: 90vw;
+        height: 90vh;
+    }
+}
+
+@media (max-width: 600px) {
+    #canvas {
+        width: 90vw;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 400px) {
+    #canvas {
+        width: 90vw;
+        height: 60vh;
+    }
+}
